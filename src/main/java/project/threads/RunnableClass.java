@@ -17,7 +17,7 @@ public class RunnableClass implements Runnable{
     public void run() {
         while (counter.getCounter() < FINISH) {
             counter.setCounter(counter.getCounter() + 1);
-            LOGGER.info("ThreadClass " + counter.getCounter());
+            LOGGER.info("Runnable " + counter.getCounter());
         }
     }
 }
